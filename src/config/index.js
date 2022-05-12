@@ -12,7 +12,7 @@ const DEFAULT_CONFIG = {
 	CORE_VER: "1.5.0",
 
 	//接口地址
-	API_URL: "/api",
+	API_URL: "/admin",
 
 	//请求超时
 	TIMEOUT: 10000,

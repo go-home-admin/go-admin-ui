@@ -24,14 +24,14 @@
 			</scTable>
 		</el-main>
 	</el-container>
-	
+
 	<save-dialog v-if="dialog.save" ref="saveDialog" @success="handleSuccess" @closed="dialog.save=false"></save-dialog>
-	
+
 </template>
 
 <script>
 	import saveDialog from './save'
-	
+
 	export default {
 		name: 'tableSetting',
 		components: {
